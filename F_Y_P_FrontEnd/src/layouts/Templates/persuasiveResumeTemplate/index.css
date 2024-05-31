@@ -1,0 +1,60 @@
+.prt-personal-info{
+    position: relative;
+    margin: 1% 2%; 
+    background-color: rgb(204, 18, 18) !important;
+    color: white !important;
+    padding: 2% 2%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.prt-personal-info-item2{
+    display: block;
+    border-left: 1px solid white;
+}
+
+/* CAREER_PATH */
+.prt-career-path{
+    margin: 1% 2% 0% 2%; 
+    padding-bottom: 0%;
+    border-bottom: 1px solid black;
+}
+.prt-career-path-grid{
+    margin-top: 1%;
+}
+.prt-career-path-subgrid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.prt-border-circle{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 14%;
+    background-color: black !important;
+    border-radius: 50%;
+}
+.prt-border-circle1{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -13%;
+    left: -2.2%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/* skills-and-languages */
+.prt-skills-and-languages{
+    margin: 0% 2%; 
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.myClass {
+    width: 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    /* background-color: aqua; */
+}

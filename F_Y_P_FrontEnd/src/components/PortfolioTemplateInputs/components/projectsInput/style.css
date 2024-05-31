@@ -1,0 +1,20 @@
+.grammar-check-btn {
+    margin: 10px;
+    padding: 5px;
+    background-color: #b7e082;
+    border-radius: 15px;
+    width: 150px;
+}
+
+.corrections {
+    color: red; /* Set text color to red */
+    font-size: small; /* Set font size to small */
+}
+
+.corrections p {
+    margin: 0; /* Remove default margin */
+}
+
+.corrections p span {
+    margin-right: 5px; /* Add space between asterisk and message */
+}

@@ -1,0 +1,81 @@
+.sign-in-main{
+    position: relative;
+    background-color: #100c7a;
+    min-height: 100vh;
+    padding-top: 7%;
+}
+.sign-in-secondary {
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    height: 20vh;
+    /* 75% of the viewport height */
+    background-color: white;
+
+}
+.signin-input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.signin-input:focus{
+    outline: 1px solid #2a62ff;
+}
+.signin-input-error{
+    height: 40px;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+.hidden-text{
+    display: none;
+    font-size:10px;
+    color: red;
+    float: left;
+    padding: 0px 0 0 5px;
+}
+.error-text{
+    position:absolute;
+    top:52%;
+    left:0%;
+    font-size:10px;
+    color: red;
+    float: left;
+    padding: 5px 0 0px 5px;
+    z-index: 111111;
+}
+.eyeiconinput{
+    position: absolute;
+    right:4%;
+    top: 18%;
+    height:30%;
+    width: 6%;
+    z-index: 11111111111; 
+    cursor: pointer;
+}
+input[type="password"]::-webkit-outer-spin-button,
+input[type="password"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="password"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.auth-main{
+    height: 80vh;
+    background-image: url('../../../assets/background/authBackground.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    
+}

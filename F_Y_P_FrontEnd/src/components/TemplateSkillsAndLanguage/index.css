@@ -1,0 +1,28 @@
+.skill{
+    margin-right: 10%;
+}
+.skill-li {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.skill-li2 {
+    font-size: 12px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.skill-li2::before {
+    content: "- ";
+    text-transform: capitalize;
+    margin-right: 0.5em;
+}
+.skill-language-headings {
+    border-top: 1px solid black;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-top: 5%;
+    margin-right: 10%;
+    
+}

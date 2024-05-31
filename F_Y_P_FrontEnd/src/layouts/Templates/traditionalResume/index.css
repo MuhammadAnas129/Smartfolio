@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.traditional-resume {
+    height: 29.7cm;
+    width: 21cm;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.personal-info {
+    position: relative;
+    margin: 1% 2%; 
+    padding-bottom: 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border-bottom: 1px dotted black; */
+}
+
+.personal-info h1 {
+    position: relative;
+    color: rgb(47, 171, 219);
+    font-size: 27px;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
+
+.personal-info-item2 p {
+    /* color: rgb(47, 171, 219); */
+    display: inline;
+    /* margin-left: 2%; */
+    font-size: 12px;
+}
+
+.address-wrapper {
+    display: inline;
+    align-items: baseline;
+}
+.personal-info-item2 {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-gap: 10px; */
+}
+
+.address-wrapper-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.persona-info-item2-grid
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+/* OBJECTIVES */
+.objectives{
+    margin: 1% 2%; 
+    padding-bottom: 2%;
+    border-top: 1px dotted black;
+}
+
+/* CAREER_PATH */
+.career-path{
+    margin: 1% 2%; 
+    padding-bottom: 2%;
+    border-top: 1px dotted black;
+}
+.career-path-grid{
+    margin-top: 1%;
+}
+.career-path-subgrid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+/* skills-and-languages */
+.skills-and-languages{
+    margin: 1% 2%; 
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

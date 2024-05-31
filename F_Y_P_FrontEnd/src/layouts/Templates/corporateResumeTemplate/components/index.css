@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*main class*/
+.corporate-resume-template {
+  font-family: "Poppins", sans-serif;
+  /* height: 29.7cm;
+    width: 21cm; */
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.corporate-resume-template-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  overflow: hidden;
+}
+
+/* All subheadings class*/
+.corporate-resume-template-sub-headings {
+  border-top: 1px solid black;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding-top: 5%;
+  margin-right: 10%;
+}
+
+.crt-empty-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.crt-empty-grid-itm1 {
+  height: 70px;
+  border-right: 1px solid black;
+}
+
+.crt-main-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.crt-main-grid-item1 {
+  padding: 2% 0% 2% 11%;
+}
+
+.crt-main-grid-item2 {
+  padding: 2% 0% 2% 2%;
+  border-left: 1px solid black;
+}
+
+.crt-personal-info-typography {
+  position: relative;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0, 0.5);
+  padding: 5% 0% 5% 0%;
+
+  /* font-weight: 600; */
+}
+
+.crt-personal-info-grid {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  position: relative;
+  border-bottom: 1px solid rgb(85, 85, 85, 0.5);
+}
+
+.crt-personal-info-grid1 {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  position: relative;
+}
+
+.phone-icon {
+  height: 30%;
+}
+.location-icon {
+  height: 20%;
+}
+.crt-p-i-g-item {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(231, 231, 231, 0.9);
+  justify-content: center;
+  text-align: center;
+}
+
+.crt-main-grid-item2-spacing {
+  margin: 2% 5% 2% 5%;
+}
+
+.myClass {
+  width: 100%;
+  overflow: auto;
+  overflow-wrap: break-word;
+  /* background-color: aqua; */
+}

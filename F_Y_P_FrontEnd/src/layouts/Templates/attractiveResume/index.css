@@ -1,0 +1,62 @@
+.art-main-grid-item2-spacing{
+    margin: 0;
+    padding: 0;
+}
+.art-main-grid-item1{
+    margin: 8% 0% 2% 5%;
+    background-color: rgb(204, 18, 18);
+    padding: 2% 0% 2% 5%;
+    height: 29cm;
+}
+.art-personal-info-typography {
+    position: relative;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 2% 0% 5% 5%;
+}
+.art-personal-info-subheading{
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 5%;
+}
+.art-personal-info-sub-subheading{
+    color: white;
+    padding: 3% 0% 0% 5%;
+    font-weight: 800;
+}
+.art-skills-languages{
+    color: white !important;
+}
+
+.art-main-grid-item2 {
+    padding: 2% 0% 2% 2%;
+    border-left: 0px;
+    
+}
+.art-work-education-grid{
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+.art-work-education-grid-itm2{
+    border-left: 1px solid rgb(204, 18, 18);
+    padding-left: 5%;
+    text-align: justify;
+    position: relative;
+}
+.art-border-circle{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 0%;
+    left: -3%;
+    background-color: rgb(204, 18, 18);
+    border-radius: 50%;
+}
+
+.myClass {
+    width: 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    /* background-color: aqua; */
+}

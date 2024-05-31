@@ -1,0 +1,31 @@
+.resumes-grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+.resume-textfield{
+    /* height: 15%; */
+    width: 98%;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    font-size: 24px;
+    padding: 10px 15px;
+    margin: 10px;
+    display: inline;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px 6px 20px;
+    background-color: #40A578;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    width: 45%;
+  }
+  
+  /* Hide the actual file input */
+  .custom-file-upload input[type='file'] {
+    display: none;
+  }

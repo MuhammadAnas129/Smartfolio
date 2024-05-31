@@ -1,0 +1,28 @@
+.navbar{
+    background-color: rgb(91, 91, 250);
+    border-bottom: 1px solid black;
+}
+.navbar-typography{
+    color: black;
+}
+.navbar-logo{
+    position: relative;
+    height: 50%;
+    width: 15%;
+    margin-right: 5%;
+}
+.navbar-logo-mid{
+    position: relative;
+    height: 70%;
+    width: 25%;
+    margin-right: 5%;
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .navbar-logo{
+        display: none;
+    }
+    .navbar-logo-mid{
+        display: block;
+    }
+}

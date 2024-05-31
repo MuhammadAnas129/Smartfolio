@@ -1,0 +1,38 @@
+.su-img-text{
+    position: absolute;
+    top: 80%;
+    background-color: rgba(0,0,0,0.5);
+    width: 88%;
+    height: 18%;
+    font-weight: 500;
+    color:white;
+    padding-top: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    /* margin-left: 20px; */
+}
+.su-img-button{
+    position: relative;
+}
+.su-img-button:hover .su-img-text{
+    opacity: 1;
+}
+.error-text-signup{
+    position:absolute;
+    top:52%;
+    left:0%;
+    font-size:10px;
+    color: red;
+    float: left;
+    padding: 0px 0 0px 5px;
+    z-index: 111111;
+}
+.eyeiconinput{
+    position: absolute;
+    right:4%;
+    top: 18%;
+    height:30%;
+    width: 6%;
+    z-index: 11111111111; 
+    cursor: pointer;
+}

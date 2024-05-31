@@ -1,0 +1,19 @@
+.dashboard-grid-items {
+  transform: scale(1);
+  height: 300px;
+  border-radius: 10px;
+}
+
+.dashboard-grid-image-items {
+  border-radius: 10px;
+}
+.dashboard-grid-img {
+  height: 40%;
+  width: 40%;
+}
+.dashboard-icons {
+  position: relative;
+  height: 25%;
+  width: 25%;
+  /* margin: 0px 25px 0px 25px; */
+}
